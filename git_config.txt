@@ -1,0 +1,84 @@
+
+C:\Users\ashok>git config --global user.name "ashok kola"
+
+C:\Users\ashok>git config --global user.email "kolaashokm11@gmail.com"
+
+C:\Users\ashok>cd onedrive
+
+C:\Users\ashok\OneDrive>cd desktop[
+The system cannot find the path specified.
+
+C:\Users\ashok\OneDrive>cd calculator
+The system cannot find the path specified.
+
+C:\Users\ashok\OneDrive>cd desktop
+
+C:\Users\ashok\OneDrive\Desktop>cd calculator
+
+C:\Users\ashok\OneDrive\Desktop\Calculator>git init
+Initialized empty Git repository in C:/Users/ashok/OneDrive/Desktop/Calculator/.git/
+
+C:\Users\ashok\OneDrive\Desktop\Calculator>git add .
+
+C:\Users\ashok\OneDrive\Desktop\Calculator>git commit -m "i hve done changes"
+[master (root-commit) 8c0e3f4] i hve done changes
+ 3 files changed, 138 insertions(+)
+ create mode 100644 index.css
+ create mode 100644 index.html
+ create mode 100644 index.js
+
+C:\Users\ashok\OneDrive\Desktop\Calculator>git remote add origin https://github.com/Ashokkola/calculator.git
+
+C:\Users\ashok\OneDrive\Desktop\Calculator>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.43 KiB | 1.43 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Ashokkola/calculator.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\ashok\OneDrive\Desktop\Calculator>cd ..
+
+C:\Users\ashok\OneDrive\Desktop>cd ..
+
+C:\Users\ashok\OneDrive>cd empty
+The system cannot find the path specified.
+
+C:\Users\ashok\OneDrive>cd desktop
+
+C:\Users\ashok\OneDrive\Desktop>cd empty
+
+C:\Users\ashok\OneDrive\Desktop\empty>git clone https://github.com/MUMIT-404-CYBER/RANDOM-CLONE.git
+Cloning into 'RANDOM-CLONE'...
+remote: Enumerating objects: 349, done.
+remote: Counting objects: 100% (247/247), done.
+remote: Compressing objects: 100% (192/192), done.
+remote: Total 349 (delta 147), reused 106 (delta 54), pack-reused 102
+Receiving objects: 100% (349/349), 1.17 MiB | 8.61 MiB/s, done.
+Resolving deltas: 100% (197/197), done.
+error: invalid path '__scr__/...'
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+C:\Users\ashok\OneDrive\Desktop\empty>cd random-clone
+
+C:\Users\ashok\OneDrive\Desktop\empty\RANDOM-CLONE>cd ..
+
+C:\Users\ashok\OneDrive\Desktop\empty>mkdir sp
+
+C:\Users\ashok\OneDrive\Desktop\empty>cd sp
+
+C:\Users\ashok\OneDrive\Desktop\empty\sp> git clone https://github.com/pandusp017/exam.git
+Cloning into 'exam'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
